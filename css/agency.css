@@ -169,7 +169,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    color: #fed136;
+    color: #ffffff;
+    font-weight: bold;
     font-family: "Nanum Gothic", sans-serif;
 }
 
