@@ -309,7 +309,7 @@ header .intro-text .intro-heading {
     }
 }
 
-section#second-intro {
+section#home {
     background: url(../img/second-intro.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -322,7 +322,7 @@ section#second-intro {
     height: 400px;
 }
 
-#second-intro .intro-text .intro-content {
+#home .intro-text .intro-content {
     color: white;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
@@ -333,21 +333,22 @@ section#second-intro {
     margin-top: 15px
 }
 
-#second-intro .intro-text .intro-heading {
+#home .intro-text .intro-heading {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 1;
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 42px;
+    line-height: 42px;
     margin-bottom: 0px;
     color: white;
+    clear: both;
 }
 
 @media (min-width:768px) {
-    section#second-intro {
+    section#home {
         height: 680px;
     }
-    #second-intro .intro-text .intro-heading {
+    #home .intro-text .intro-heading {
         color: white;
         font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
         text-transform: uppercase;
@@ -356,8 +357,9 @@ section#second-intro {
         line-height: 75px;
         padding-top: 100px;
         margin-bottom: 0px;
+        clear: both;
     }
-    #second-intro .intro-text .intro-content {
+    #home .intro-text .intro-content {
         color: white;
         font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
         text-transform: uppercase;
@@ -369,7 +371,7 @@ section#second-intro {
     }
 }
 
-section#third-intro {
+section#whatwedo {
     background: url(../img/third-intro.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -382,7 +384,7 @@ section#third-intro {
     height: 400px;
 }
 
-#third-intro .intro-text .intro-content {
+#whatwedo .intro-text .intro-content {
     color: white;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
@@ -393,21 +395,21 @@ section#third-intro {
     margin-top: 15px
 }
 
-#third-intro .intro-text .intro-heading {
+#whatwedo .intro-text .intro-heading {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 1;
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 40px;
+    line-height: 40px;
     margin-bottom: 0px;
     color: white;
 }
 
 @media (min-width:768px) {
-    section#third-intro {
+    section#whatwedo {
         height: 680px;
     }
-    #third-intro .intro-text .intro-heading {
+    #whatwedo .intro-text .intro-heading {
         color: white;
         font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
         text-transform: uppercase;
@@ -417,7 +419,7 @@ section#third-intro {
         padding-top: 100px;
         margin-bottom: 0px;
     }
-    #third-intro .intro-text .intro-content {
+    #whatwedo .intro-text .intro-content {
         color: white;
         font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
         text-transform: uppercase;
@@ -430,7 +432,7 @@ section#third-intro {
 }
 
 
-section#fourth-intro {
+section#career {
     background: url(../img/fourth-intro.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -443,7 +445,7 @@ section#fourth-intro {
     height: 400px;
 }
 
-#fourth-intro .intro-text .intro-content {
+#career .intro-text .intro-content {
     color: white;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
@@ -454,21 +456,21 @@ section#fourth-intro {
     margin-top: 15px
 }
 
-#fourth-intro .intro-text .intro-heading {
+#career .intro-text .intro-heading {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 1;
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 40px;
+    line-height: 40px;
     margin-bottom: 0px;
     color: white;
 }
 
 @media (min-width:768px) {
-    section#fourth-intro {
+    section#career {
         height: 680px;
     }
-    #fourth-intro .intro-text .intro-heading {
+    #career .intro-text .intro-heading {
         color: white;
         font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
         text-transform: uppercase;
@@ -478,7 +480,7 @@ section#fourth-intro {
         padding-top: 100px;
         margin-bottom: 0px;
     }
-    #fourth-intro .intro-text .intro-content {
+    #career .intro-text .intro-content {
         color: white;
         font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
         text-transform: uppercase;
@@ -496,7 +498,7 @@ section {
 }
 
 section h2.section-heading {
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 0;
     margin-bottom: 15px
 }
@@ -521,19 +523,19 @@ section h3.section-subheading {
     text-transform: none
 }
 
-#portfolio .portfolio-item {
+#whoweare .portfolio-item {
     margin: 0 0 15px;
     right: 0
 }
 
-#portfolio .portfolio-item .portfolio-link {
+#whoweare .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     max-width: 400px;
     margin: 0 auto
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#whoweare .portfolio-item .portfolio-link .portfolio-hover {
     background: rgba(254, 209, 54, .9);
     position: absolute;
     width: 100%;
@@ -544,11 +546,11 @@ section h3.section-subheading {
     -moz-transition: all ease .5s
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+#whoweare .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#whoweare .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
     position: absolute;
     width: 100%;
     height: 20px;
@@ -559,16 +561,16 @@ section h3.section-subheading {
     color: #fff
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+#whoweare .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#whoweare .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#whoweare .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin: 0
 }
 
-#portfolio .portfolio-item .portfolio-caption {
+#whoweare .portfolio-item .portfolio-caption {
     max-width: 400px;
     margin: 0 auto;
     background-color: #fff;
@@ -576,24 +578,24 @@ section h3.section-subheading {
     padding: 25px
 }
 
-#portfolio .portfolio-item .portfolio-caption h4 {
+#whoweare .portfolio-item .portfolio-caption h4 {
     text-transform: none;
     margin: 0
 }
 
-#portfolio .portfolio-item .portfolio-caption p {
+#whoweare .portfolio-item .portfolio-caption p {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 16px;
     margin: 0
 }
 
-#portfolio * {
+#whoweare * {
     z-index: 2
 }
 
 @media (min-width:767px) {
-    #portfolio .portfolio-item {
+    #whoweare .portfolio-item {
         margin: 0 0 30px
     }
 }
